@@ -674,16 +674,17 @@ footer {
 .checkbox {
     margin-bottom: 24px;
 }
-/*
+
 .visually-hidden:checked ~ .checkbox-label .checkbox-span {
     background-color: #404BBF;
     border: none;
+    fill: #F4F4FD;
     
 }
 .visually-hidden:checked ~ .checkbox-label .checkbox-svg {
     fill: #F4F4FD;
 } 
-*/
+
 .checkbox-label {
     font-size: 12px;
     line-height: 1.17;
