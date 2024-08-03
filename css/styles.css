@@ -76,7 +76,6 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-/*HEADERNAV*/
 .header-nav {
     display: flex;
     align-items: center;
@@ -684,15 +683,14 @@ footer {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
     border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid rgba( 46, 47, 66, 0.4 );
+    fill: transparent;
     display: inline-flex;
     align-items: center;
     justify-content: center;
 
 }
-.checkbox-span {
-    fill: transparent;
-    border: 1px solid rgba(46,47,66,0.4);
-}
+
 .checkbox-label {
     font-size: 12px;
     line-height: 1.17;
