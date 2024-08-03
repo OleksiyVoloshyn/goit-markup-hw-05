@@ -706,17 +706,19 @@ footer {
     
 } 
 */
-.visually-hidden:checked + .checkbox-label > .checkbox-span {
+.checkbox input:checked + .checkbox-label > span {
     background-color: #404BBF;
     border: none;
     fill: #F4F4FD;
 }
+
+
+
+
 .privacy {
     color: #4d5ae5;
     text-decoration:underline;
 }
-
-
 .form-button {
     display: block;
     margin:0 auto;
