@@ -677,12 +677,12 @@ footer {
 
 .visually-hidden:checked ~ .checkbox-label .checkbox-span {
     background-color: #404BBF;
-    border: none;
-    fill: #F4F4FD;
+
     
 }
 .visually-hidden:checked ~ .checkbox-label .checkbox-svg {
     fill: #F4F4FD;
+    border: none;
 } 
 
 .checkbox-label {
